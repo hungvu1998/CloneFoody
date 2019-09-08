@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundTrangChu"
+    >
+
+
+    <include
+        layout="@layout/layout_toolbar"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="?attr/actionBarSize"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:textSize="11sp"
+                android:id="@+id/btnCheckIn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/colorAccent"
+                android:background="@color/colorPrimaryDark2"
+                android:padding="5dp"
+                android:textAllCaps="false"
+                android:drawableTop="@drawable/ic_location"
+
+                android:text="@string/checkin" />
+
+            <Button
+                android:id="@+id/btnBinhLuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/colorAccent"
+                android:background="@color/colorPrimaryDark2"
+                android:padding="5dp"
+                android:textSize="11sp"
+                android:textAllCaps="false"
+                android:drawableTop="@drawable/ic_comment"
+
+                android:text="@string/comment" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/colorAccent"
+                android:background="@color/colorPrimaryDark2"
+                android:padding="5dp"
+                android:textSize="11sp"
+                android:textAllCaps="false"
+                android:drawableTop="@drawable/ic_bookmark"
+                android:text="@string/save" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/colorAccent"
+                android:background="@color/colorPrimaryDark2"
+                android:drawableTop="@drawable/ic_share"
+                android:padding="5dp"
+                android:textSize="11sp"
+                android:textAllCaps="false"
+
+                android:text="@string/chiase" />
+
+        </LinearLayout>
+
+
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/nestScrollViewChiTiet"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                >
+
+
+
+
+
+                <ProgressBar
+                    android:id="@+id/PGLoad"
+
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <include layout="@layout/layout_binhluan_chitietquanan"></include>
+                </LinearLayout>
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+        </android.support.v4.widget.NestedScrollView>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

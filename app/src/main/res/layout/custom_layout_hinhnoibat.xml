@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imgHinhNoiBat"
+        android:layout_width="match_parent"
+
+        android:layout_height="150dp" />
+    <FrameLayout
+        android:id="@+id/khungSoHinhNoiBat"
+        android:visibility="gone"
+        android:background="@color/transparentBackgroundDangnhap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="+19"
+            android:id="@+id/txtSoHinhNoiBat"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:background="@color/colorBackgroundTrangChu"
+    android:layout_height="match_parent">
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@color/colorAccent"
+        android:layout_height="40dp" >
+
+        <RadioButton
+            android:id="@+id/rbMoiNhat"
+            android:checked="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@drawable/changetext_tab_trangchu"
+            android:gravity="center"
+            android:drawableBottom="@drawable/ic_keyboard_arrow_down_black_24dp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/change_backgroundtab_trangchu"
+            android:text="@string/moinhat" />
+        <View
+            android:background="@color/colorBackgroundTrangChu"
+            android:layout_width="2dp"
+            android:layout_height="match_parent">
+
+        </View>
+        <RadioButton
+            android:id="@+id/rbFood"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@drawable/changetext_tab_trangchu"
+            android:drawableBottom="@drawable/ic_keyboard_arrow_down_black_24dp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/change_backgroundtab_trangchu"
+            android:text="@string/Food" />
+        <View
+            android:background="@color/colorBackgroundTrangChu"
+            android:layout_width="2dp"
+            android:layout_height="match_parent">
+
+        </View>
+        <RadioButton
+            android:id="@+id/rbKhuVuc"
+            android:gravity="center"
+            android:textColor="@drawable/changetext_tab_trangchu"
+            android:drawableBottom="@drawable/ic_keyboard_arrow_down_black_24dp"
+            android:button="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:background="@drawable/change_backgroundtab_trangchu"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/khuvuc" />
+    </RadioGroup>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:id="@+id/nestScrollViewPlace"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:drawableLeft="@drawable/nearby"
+                    android:drawablePadding="10dp"
+                    android:gravity="left|center"
+                    android:padding="10dp"
+                    android:text="Nearby"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:drawableLeft="@drawable/order"
+                    android:drawablePadding="10dp"
+                    android:gravity="left|center"
+                    android:padding="10dp"
+                    android:text="Order Delivery"
+                    android:textAllCaps="false" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:drawableLeft="@drawable/review"
+                    android:drawablePadding="10dp"
+                    android:gravity="left|center"
+                    android:padding="10dp"
+                    android:text="Đánh giá"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:drawableLeft="@drawable/user"
+                    android:drawablePadding="10dp"
+                    android:gravity="left|center"
+                    android:padding="10dp"
+                    android:text="Top Member"
+                    android:textAllCaps="false" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:drawableLeft="@drawable/blog"
+                    android:drawablePadding="10dp"
+                    android:gravity="left|center"
+                    android:padding="10dp"
+                    android:text="Blogs"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:drawableLeft="@drawable/gameandfun"
+                    android:drawablePadding="10dp"
+                    android:gravity="left|center"
+                    android:padding="10dp"
+                    android:id="@+id/testqueue"
+                    android:text="Games and Fun"
+                    android:textAllCaps="false" />
+
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerPlace"
+                android:padding="5px"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </android.support.v7.widget.RecyclerView>
+            <ProgressBar
+                android:id="@+id/PGLoad"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+
+</android.support.constraint.ConstraintLayout>
+</android.support.design.widget.CoordinatorLayout>

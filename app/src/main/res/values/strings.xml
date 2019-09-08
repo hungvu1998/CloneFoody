@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ViDuFirebase</string>
+    <string name="phienban">Phiên bản</string>
+    <string name="dangtai">Đang tải.....</string>
+    <string name="tencongty"> HƯNG VŨ COMPANY</string>
+    <string name="email"> Email</string>
+    <string name="matkhau">Mật Khẩu</string>
+    <string name="facebook_app_id">1975608562746337</string>
+    <string name="fb_login_protocol_scheme">fb1975608562746337</string>
+
+    <string name="dangxuly">Dữ liệu đang xử lý ....</string>
+    <string name="chuoikhoiphucMK">Bạn vui lòng nhập địa chỉ Email vào khung bên dưới để khôi phục mật khẩu</string>
+    <string name="DangKy"><u>Đăng ký mới</u></string>
+    <string name="DangNhap"><u>Đăng nhập</u></string>
+    <string name="QuenMK"><u>Quên mật khẩu</u></string>
+    <string name="Place">Place</string>
+    <string name="Food">Food</string>
+    <string name="moinhat">Mới nhất</string>
+    <string name="danhmuc">Danh mục</string>
+    <string name="khuvuc">Hà Nội</string>
+    <string name="datmon">Đặt món</string>
+    <string name="like">Like</string>
+    <string name="comment">Comment</string>
+    <string name="upload">Upload Image</string>
+    <string name="save">Save</string>
+    <string name="chiase">Share</string>
+    <string name="checkin">Check-In</string>
+    <string-array name="spinerUser">
+        <item></item>
+        <item>Thông tin tài khoản</item>
+        <item>Thoát</item>
+    </string-array>
+</resources>

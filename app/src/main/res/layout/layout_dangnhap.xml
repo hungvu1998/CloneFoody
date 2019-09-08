@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="@color/transparentBackgroundDangnhap"
+        android:orientation="vertical"
+        android:paddingLeft="50dp"
+        android:paddingBottom="20dp"
+        android:paddingRight="50dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/lalatext3" />
+
+        <EditText
+            android:id="@+id/edTenDangNhap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/colorAccent"
+            android:drawableLeft="@drawable/ic_perm_identity_white_24dp"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent" />
+
+        <EditText
+            android:id="@+id/edMKDangNhap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:backgroundTint="@color/colorAccent"
+            android:drawableLeft="@drawable/ic_lock_outline_white_24dp"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="@string/matkhau"
+            android:inputType="textPassword"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent" />
+
+        <Button
+
+            android:id="@+id/btnDangNhap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/radius_button"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp"
+            android:text="Đăng nhập"
+            android:textColor="@android:color/background_light" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:orientation="horizontal">
+            <View
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:background="@color/colorAccent"
+                android:layout_height="2dp">
+
+            </View>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Hoặc"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/colorAccent"
+
+                android:layout_height="wrap_content" />
+            <View
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:background="@color/colorAccent"
+                android:layout_height="2dp">
+
+            </View>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnDangNhapFB"
+            android:textColor="@color/colorAccent"
+            android:textAllCaps="false"
+            android:drawablePadding="-30dp"
+            android:text="Đăng nhập bằng FaceBook"
+            android:drawableLeft="@drawable/icon_facebook"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@color/colorFB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnDangNhapGG"
+            android:textColor="@color/colorAccent"
+            android:textAllCaps="false"
+            android:drawablePadding="-30dp"
+            android:text="Đăng nhập bằng Google"
+            android:drawableLeft="@drawable/icon_google_2"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            android:weightSum="2"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_weight="1"
+                android:text="@string/QuenMK"
+                android:id="@+id/txtQuenMatKhauDN"
+                android:textColor="@color/colorAccent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="@string/DangKy"
+                android:id="@+id/txtDangKyDN"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:textColor="@color/colorAccent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

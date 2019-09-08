@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#cd2027</color>
+    <color name="colorPrimaryDark2">#cd00ed67</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="colorPrimaryDark3">#1d914f</color>
+    <color name="transparentBackgroundDangnhap">#66000000</color>
+    <color name="colorFB">#189aca</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBackgroundTrangChu">#ccc</color>
+    <color name="transparentWhite">#CCffffff</color>
+    <color name="Enable">#f1a99595</color>
+</resources>

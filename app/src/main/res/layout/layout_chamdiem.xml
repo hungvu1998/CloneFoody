@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/transparentBackgroundDangnhap"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="20dp">
+
+<LinearLayout
+
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+
+        android:text="Vị trí"
+        android:drawableLeft="@drawable/ic_location"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+
+        android:textColor="@color/colorAccent"
+        />
+    <EditText
+        android:id="@+id/edtViTri"
+        android:layout_marginLeft="5dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/colorAccent"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:maxLength="2"
+
+        android:hint="0"
+        android:inputType="number"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent" />
+
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+
+        android:text="Giá cả"
+        android:drawableLeft="@drawable/banknotes"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+
+        android:textColor="@color/colorAccent"
+        />
+    <EditText
+        android:layout_marginLeft="5dp"
+        android:textAlignment="center"
+        android:id="@+id/edtGiaCa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/colorAccent"
+        android:maxLength="2"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="0"
+        android:inputType="number"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent" />
+
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+
+        android:text="Chất Lượng"
+        android:drawableLeft="@drawable/ic_like"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+
+        android:textColor="@color/colorAccent"
+        />
+    <EditText
+        android:layout_marginLeft="5dp"
+        android:textAlignment="center"
+        android:id="@+id/edtChatLuong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/colorAccent"
+        android:maxLength="2"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="0"
+        android:inputType="number"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent" />
+
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+
+        android:text="Dịch vụ"
+        android:drawableLeft="@drawable/ic_perm_identity_white_24dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+
+        android:textColor="@color/colorAccent"
+        />
+
+    <EditText
+        android:id="@+id/edtDichVu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/colorAccent"
+        android:maxLength="2"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="0"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent" />
+
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_exit_to_app_white_24dp"
+
+        android:text="Không gian"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+    <EditText
+        android:layout_marginLeft="5dp"
+        android:textAlignment="center"
+        android:id="@+id/edtKhongGian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/colorAccent"
+        android:maxLength="2"
+
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="0"
+
+        android:inputType="number"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent" />
+
+</LinearLayout>
+
+
+<Button
+
+    android:id="@+id/btnChamDiem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/radius_button"
+    android:paddingLeft="60dp"
+    android:paddingRight="60dp"
+    android:text="Chấm điểm"
+    android:textColor="@android:color/background_light" />
+</LinearLayout>
